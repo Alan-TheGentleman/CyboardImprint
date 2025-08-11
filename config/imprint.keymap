@@ -31,6 +31,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             retro-tap;
+            quick-tap-ms = <200>;
         };
 
         html: html {
@@ -57,7 +58,7 @@
 &kp ESCAPE  &htl LEFT_GUI A  &htl LEFT_ALT S  &htl LCTRL D  &hold_tap LEFT_SHIFT F  &kp G                 &kp H          &hold_tap RSHIFT J  &htl RCTRL K       &htl RIGHT_ALT L  &htl RIGHT_GUI SEMICOLON  &kp SQT
 &kp GRAVE   &kp Z            &kp X            &kp C         &kp V                   &kp B                 &kp N          &kp M               &kp COMMA          &kp DOT           &kp FSLH                  &kp PAGE_DOWN
 &none       &none            &kp LEFT         &kp RIGHT     &none                                                        &none               &kp UP_ARROW       &kp DOWN          &none                     &none
-                                                            &kp ESC                 &kp TAB    &key_repeat    &kp LG(LS(N5))   &kp LC(PLUS)           &kp LC(MINUS)
+                                                            &kp ESC                 &kp TAB    &key_repeat    &kp LG(LS(N5))   &kp C_AC_ZOOM_IN           &kp C_AC_ZOOM_OUT
                                                             &html 3 SPACE           &mo 1      &mo 2      &kp RIGHT_ALT  &kp ENTER           &html 5 BACKSPACE
             >;
         };
