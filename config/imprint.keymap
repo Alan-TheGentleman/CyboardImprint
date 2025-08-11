@@ -16,10 +16,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <130>;
+            tapping-term-ms = <120>;
             flavor = "tap-preferred";
             retro-tap;
-            quick-tap-ms = <125>;
+            quick-tap-ms = <200>;
         };
 
         htl: htl {
@@ -28,10 +28,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
             retro-tap;
-            quick-tap-ms = <125>;
         };
 
         html: html {
@@ -40,8 +39,8 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <130>;
-            quick-tap-ms = <125>;
+            tapping-term-ms = <135>;
+            quick-tap-ms = <200>;
             retro-tap;
             flavor = "tap-preferred";
         };
@@ -58,7 +57,7 @@
 &kp ESCAPE  &htl LEFT_GUI A  &htl LEFT_ALT S  &htl LCTRL D  &hold_tap LEFT_SHIFT F  &kp G                 &kp H          &hold_tap RSHIFT J  &htl RCTRL K       &htl RIGHT_ALT L  &htl RIGHT_GUI SEMICOLON  &kp SQT
 &kp GRAVE   &kp Z            &kp X            &kp C         &kp V                   &kp B                 &kp N          &kp M               &kp COMMA          &kp DOT           &kp FSLH                  &kp PAGE_DOWN
 &none       &none            &kp LEFT         &kp RIGHT     &none                                                        &none               &kp UP_ARROW       &kp DOWN          &none                     &none
-                                                            &kp LEFT_SHIFT          &kp LCTRL  &kp DEL    &kp LEFT_GUI   &kp RCTRL           &kp RIGHT_SHIFT
+                                                            &kp ESC                 &kp TAB    &key_repeat    &kp LG(LS(N5))   &kp LC(PLUS)           &kp LC(MINUS)
                                                             &html 3 SPACE           &mo 1      &mo 2      &kp RIGHT_ALT  &kp ENTER           &html 5 BACKSPACE
             >;
         };
