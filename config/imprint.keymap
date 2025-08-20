@@ -70,7 +70,7 @@
 &kp ESCAPE  &ht_gui LEFT_GUI A  &htl LEFT_ALT S  &htl LCTRL D  &hold_tap LEFT_SHIFT F  &kp G                   &kp H           &hold_tap RSHIFT J  &htl RCTRL K       &htl RIGHT_ALT L  &ht_gui RIGHT_GUI SEMICOLON  &kp SQT
 &kp GRAVE   &kp Z               &kp X            &kp C         &kp V                   &kp B                   &kp N           &kp M               &kp COMMA          &kp DOT           &kp FSLH                     &kp PAGE_DOWN
 &none       &none               &kp LEFT         &kp RIGHT     &none                                                           &none               &kp UP_ARROW       &kp DOWN          &none                        &none
-                                                               &kp ESC                 &kp TAB  &key_repeat    &kp LG(LS(N5))  &kp LG(PLUS)        &kp LG(MINUS)
+                                                               &kp ESC                 &kp TAB  &key_repeat    &kp LG(LS(N5))  &kp LG(EQUAL)       &kp LG(MINUS)
                                                                &kp SPACE               &mo 1    &mo 2          &kp RIGHT_ALT   &kp ENTER           &html 5 BACKSPACE
             >;
         };
@@ -118,10 +118,10 @@
             bindings = <
 &kp N0  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5            &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp N1
 &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7            &kp N8  &kp N9  &kp N0  &kp N1  &kp N2  &kp N3
-&kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9            &kp N0  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
-&kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp N1            &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7
+&rgb_ug RGB_COLOR_HSB(120,100,50)  &rgb_ug RGB_COLOR_HSB(120,100,50)  &rgb_ug RGB_COLOR_HSB(120,100,50)  &rgb_ug RGB_COLOR_HSB(120,100,50)  &rgb_ug RGB_COLOR_HSB(120,100,50)  &rgb_ug RGB_COLOR_HSB(120,100,50)            &kp N0  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
+&rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(0,100,50)            &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7
 &kp N8  &kp N9  &kp N0  &kp N1  &kp N2  &kp N3            &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9
-&kp N0  &kp N1  &kp N2  &kp N3  &kp N4                            &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+&to 0  &rgb_ug RGB_TOG  &kp N2  &kp N3  &kp N4                            &kp N6  &kp N7  &kp N8  &rgb_ug RGB_TOG  &to 0
                                 &kp N1  &kp N2  &kp N3    &kp N4  &kp N5  &kp N6
                                 &kp N7  &kp N8  &kp N9    &kp N0  &kp N1  &kp N2
             >;
