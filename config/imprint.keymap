@@ -14,12 +14,12 @@
         sys_layer_enter: sys_layer_enter {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,0,90)>, <&to 3>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(0,0,35)>, <&to 3>;
         };
         sys_layer_exit: sys_layer_exit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,6,90)>, <&to 0>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(10,60,35)>, <&to 0>;
         };
     };
 
