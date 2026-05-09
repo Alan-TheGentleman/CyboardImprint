@@ -18,7 +18,7 @@
         sys_layer_exit: sys_layer_exit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(2,90,17)>, <&to 0>;
+            bindings = <&rgb_ug RGB_COLOR_HSB(334,12,100)>, <&to 0>;
         };
     };
 
