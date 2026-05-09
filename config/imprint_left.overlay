@@ -1,0 +1,3 @@
+&trackball_central {
+    force-awake-4ms-mode;
+};

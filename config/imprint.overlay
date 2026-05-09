@@ -1,7 +1,0 @@
-&trackball_central {
-    force-awake-4ms-mode;
-};
-
-&trackball_peripheral_split {
-    force-awake-4ms-mode;
-};
